@@ -173,4 +173,108 @@ Successfully installed Jinja2-3.0.3 MarkupSafe-2.1.1 Werkzeug-2.0.3 click-8.0.4 
 
 (venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> deactivate
 
-PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class>
+
+
+
+
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> pip uninstall -r requirements.txt -y
+
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping colorama as it is not installed.
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping Flask as it is not installed.
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping gunicorn as it is not installed.
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping itsdangerous as it is not installed.
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping Jinja2 as it is not installed.
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping MarkupSafe as it is not installed.
+WARNING: Ignoring invalid distribution -ip (c:\python310\lib\site-packages)
+WARNING: Skipping Werkzeug as it is not installed.
+
+
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> .\venv\Scripts\Activate.ps1
+
+(venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> pip uninstall -r requirements.txt -y
+Found existing installation: click 8.0.4
+Uninstalling click-8.0.4:
+  Successfully uninstalled click-8.0.4
+Found existing installation: colorama 0.4.4
+Uninstalling colorama-0.4.4:
+  Successfully uninstalled colorama-0.4.4
+Found existing installation: Flask 2.0.3
+Found existing installation: gunicorn 20.1.0
+Uninstalling gunicorn-20.1.0:
+  Successfully uninstalled gunicorn-20.1.0
+Found existing installation: itsdangerous 2.1.1
+Uninstalling itsdangerous-2.1.1:
+  Successfully uninstalled itsdangerous-2.1.1
+Found existing installation: Jinja2 3.0.3
+Uninstalling Jinja2-3.0.3:
+  Successfully uninstalled Jinja2-3.0.3
+Found existing installation: MarkupSafe 2.1.1
+Uninstalling MarkupSafe-2.1.1:
+  Successfully uninstalled MarkupSafe-2.1.1
+Found existing installation: Werkzeug 2.0.3
+Uninstalling Werkzeug-2.0.3:
+  Successfully uninstalled Werkzeug-2.0.3
+
+(venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> deactivate
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> rm -r .\venv\
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> ls
+
+
+    Directory: E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2022-03-23   8:56 PM                static
+d-----        2022-03-23   4:09 PM                templates
+-a----        2022-03-24   2:43 AM           1056 app.py
+-a----        2022-03-24   2:59 PM              2 count.txt
+-a----        2022-03-23   9:26 PM             28 newfile.txt
+-a----        2022-03-23   8:28 PM             21 Procfile
+-a----        2022-03-24   2:58 PM            272 requirements.txt
+-a----        2022-03-24   2:34 AM              4 tempfile.txt
+
+
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> python -m venv venv
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> .\venv\Scripts\Activate.ps1
+
+(venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> ls
+
+
+    Directory: E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2022-03-23   8:56 PM                static
+d-----        2022-03-23   4:09 PM                templates
+d-----        2022-03-24   4:19 PM                venv
+-a----        2022-03-24   2:43 AM           1056 app.py
+-a----        2022-03-24   2:59 PM              2 count.txt
+-a----        2022-03-23   9:26 PM             28 newfile.txt
+-a----        2022-03-23   8:28 PM             21 Procfile
+-a----        2022-03-24   2:58 PM            272 requirements.txt
+-a----        2022-03-24   2:34 AM              4 tempfile.txt
+
+
+(venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> python -m pip install --upgrade pip
+
+(venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> pip install flask gunicorn
+
+(venv) PS E:\GitHub\VIDEO_HELP\VIDEO_HELP\Heroku-flask-class> pip freeze > requirements.txt
