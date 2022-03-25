@@ -1,5 +1,3 @@
-// Setting up a node.js website is learned from https://www.youtube.com/watch?v=VShtPwEkDD0
-
 const http = require('http');
 const fs = require('fs');
 const port = process.env.PORT || 3000;
