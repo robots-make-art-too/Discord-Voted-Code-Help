@@ -1,5 +1,3 @@
-const { GoogleProjection } = require("jsfreemaplib");
-
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = '﹖';
@@ -11,8 +9,6 @@ window.onload = () => {
         navigator.geolocation.getCurrentPosition (
                 gpspos=> {
                     console.log(`Lat ${gpspos.coords.latitude} Lon ${gpspos.coords.longitude}`); // show on the console
-                    projected = new GoogleProjection.project(gpspos.coords.longitude, gpspos.coords.latitude);
-                    console.log(`Easting: ${projected[0]}, x: ${projected[0]}, northing: ${projected[1]}, z: ${-projected[1]}`);
                 },
                 err=> {
                     alert(`An error occurred: ${err.code}`);
