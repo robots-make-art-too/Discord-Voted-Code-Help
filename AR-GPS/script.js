@@ -26,7 +26,7 @@ function staticLoadPlaces() {
              name: 'myModels',
              location: {
                  lat: 43,
-                 lng: -79,
+                 lng: -78,
              }
          },
      ];
@@ -34,14 +34,14 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/magnemite/scene.gltf',
+        url: './assets/LB.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: 'Magnemite, Lv. 5, HP 10/10',
         message: 'I have some super skills!'
     },
     {
-        url: './assets/herobrine/scene.gltf',
+        url: './assets/VH.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
         info: 'Herobrine, Lv. 80, HP 100/100',
