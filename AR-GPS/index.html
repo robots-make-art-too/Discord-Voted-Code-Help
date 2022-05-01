@@ -12,7 +12,7 @@
 		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
 		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
 
-		<script type='text/javascript' src='./script.js'></script>
+<!-- 		<script type='text/javascript' src='./script.js'></script> -->
 		<link rel="stylesheet" type="text/css" href="./style.css"/>
 
 	</head>
@@ -26,6 +26,15 @@
 			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
 			renderer="antialias: true; alpha: true">
 
+			<a-assets>
+				<a-asset-item id="VariHall" src="../assets/models/VariHall.gltf">
+				</a-asset-item>
+			</a-assets>
+			<a-entity id="VH-model" gltf-model="#VariHall" 
+				  scale="0.25 0.25 0.25" rotation="0.5 0.5 0.5"
+				  gps-entity-place="latitude: 43.773071; longitude: -79.503404;">
+			</a-entity>
+			
 			<!-- <a-camera gps-camera rotation-reader></a-camera> -->
 			<a-camera gps-camera="simulateLatitude: 43; simulateLongitude: -78; gpsMinDistance: 2;" position="0 3 0" rotation-reader></a-camera>
 
