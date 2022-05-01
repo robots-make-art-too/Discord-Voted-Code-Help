@@ -11,7 +11,7 @@ If in a node example - open a terminal to that folder location and type `npm sta
 
 ## Python
 
-If in a python example - open a terminal to that folder location and type `python3 server.py`
+If in a python example - open a terminal to that folder location and type `python3 server.py` or `python server.py`
 
-- If in the heroku python example type `python app.py`
+- If in the heroku python example type `python app.py` (or `python3 app.py`)
 - Flask/gunicorn app environment self-starts a server, and so we do not need to specifically call one

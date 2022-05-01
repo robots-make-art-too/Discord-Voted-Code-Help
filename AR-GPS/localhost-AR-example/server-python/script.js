@@ -25,8 +25,8 @@ function staticLoadPlaces() {
          {
              name: 'myModels',
              location: {
-                 lat: 43.8360252,
-                 lng: -78.9945867,
+                 lat: 43,
+                 lng: -78,
              }
          },
      ];
@@ -47,12 +47,6 @@ var models = [
         info: 'Herobrine, Lv. 80, HP 100/100',
         message: 'I like to dance!'
     },
-    // {
-    //     url: './assets/dragonite/scene.gltf',
-    //     scale: '0.08 0.08 0.08',
-    //     rotation: '0 180 0',
-    //     info: 'Dragonite, Lv. 99, HP 150/150',
-    // },
 ];
 
 var modelIndex = 0;
