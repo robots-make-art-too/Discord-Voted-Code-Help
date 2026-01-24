@@ -1,5 +1,5 @@
 !!! Note
-  This repo was last updated in 2023 -> instructions related to third party integrations (i.e., Heroku deployment) may be outdated. The general AR setup however should be fine.
+  This repo was last updated in 2023 -> instructions related to third party integrations (i.e., Heroku deployment) may be outdated. The general AR setup however should be fine. If you try any of the instruction steps and find it doesn't work for you, pease let me know! Otherewise I will likely get to this repository late 2026 for a comprehensive review of functionality. 
 
 # VIDEO_HELP
 
