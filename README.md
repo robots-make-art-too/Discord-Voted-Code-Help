@@ -1,3 +1,6 @@
+!!! Note
+  This repo was last updated in 2023 -> instructions related to third party integrations (i.e., Heroku deployment) may be outdated. The general AR setup however should be fine.
+
 # VIDEO_HELP
 
 Basic examples for students
